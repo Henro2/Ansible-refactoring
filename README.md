@@ -76,11 +76,8 @@
  - I spined up 2 rhel 8 instances in aws called web1 and web2
 
 
-  1. We will launch two EC2 instances using RHEL8 image, we will use them as our UAT server.
-
-2. To create a role, you must create a directory called roles/, relative to the playbook file.
-
-3. We will create the folder structure and files manually. The entire file structure should look like below. All inside roles folder.
+  
+-  Using **ansible-galaxy init webserver**, i created a role called webserver 
 
 ``````
 └── webserver
